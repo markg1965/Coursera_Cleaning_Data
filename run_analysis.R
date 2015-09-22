@@ -40,7 +40,6 @@ library(tidyr)
   features_data_transposed <- t(features_Data)
   
   
-  ##names(features_Data) <- make.names(names(features_Data), unique = TRUE)
 ##Add column names (features_data_transposed) to the test and train data sets  
 
   Full_Test_data_set <- setNames(X_Test_Data, features_data_transposed)
