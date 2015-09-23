@@ -1,10 +1,18 @@
+Tables Names (loaded from working directory)
 
+1.	  X_Test_Data <- read.table(X_Test_Data_File)	  ##Test set
+2.	  Y_Test_Data <- read.table(Y_Test_Data_File)	  ##Test labels
+3.	  Subject_Test_Data <- read.table(Subject_Test_File)	
+4.	  X_Train_Data <- read.table(X_Train_Data_File)	  ##Training set
+5.	  Y_Train_Data <- read.table(Y_Train_Data_File)	  ##Training labels
+6.	  Subject_Train_Data <- read.table(Subject_Train_File)	 
+7.	  features_Data <- read.table(features_File, as.is = TRUE)	  ##Shows information about the variables used on the feature vector
+8.	  Activity_Labels_Data <- read.table(Activity_Labels_File)	 ##Links the class labels with their activity name
+9.	  Tidy_Data_Measurement_Names <- read.csv(Tidy_Data_Measurement_Names	 header = FALSE)
 
+Additional data tables were added as intermediate steps as described in the readme file.  The final output file is called Tidy_Dataset_Step2
 
-
-
-
-
+Revised observation names table (below)--removed brackets and X, Y, Z
 
 1.	tBodyAcc-mean()-X	tBodyAcc_mean
 2.	tBodyAcc-mean()-Y	tBodyAcc_mean
